@@ -8,6 +8,11 @@ body{
     margin: 0;
 }
 
+p{
+    padding: 10px;
+    text-align: justify;
+}
+
 .topo{ 
     width: 100%;          
     height: 100px;
@@ -24,4 +29,17 @@ body{
 .cidade{
     width: 25%;
     float: left;
+}
+
+@media only screen and (max-width: 800px){
+    .cidade{
+        width: 50%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 600px){
+    .cidade{
+        width: 100%;
+        float: left;
+    }
 }
