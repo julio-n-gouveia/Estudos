@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-color: #eee;
+}
+ 
+p{
+    padding: 10px;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+.site{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.topo{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: orange;
+}
+
+.menu{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+.menu ul,.menu li{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    list-style: none;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #ccc;
+}

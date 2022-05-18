@@ -1,2 +1,2 @@
 # Estudos
- Estudos e exercic
+ Estudos e exercícios.
